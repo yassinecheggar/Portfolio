@@ -18,6 +18,7 @@ z-index: 999;
 
 @media screen and  (max-width:960px){
     background:#090901;
+    height:70px;
 }
 `;
 
