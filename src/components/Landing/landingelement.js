@@ -10,6 +10,7 @@ height: 700px;
 
 export const  MyContainer = styled.div`
   height:100% ;
+  
   background-image:linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/home.jpg");  
   box-sizing: border-box;
   margin-top: 0;
@@ -19,6 +20,10 @@ export const  MyContainer = styled.div`
   top:0;
   left:0;
   right:0;
+  @media screen and (max-width: 791px) {
+  
+ width: 100%;
+ }
 `;
 
 export const  Title = styled.h1`
@@ -26,8 +31,13 @@ export const  Title = styled.h1`
   color:white;
   font-weight:${props=>props.bold ? "bold":"normal"}; 
   font-size:60px;
-  position: absolute;
+
   &:hover{text-decoration : underline}
+ 
+  @media screen and (max-width: 791px) {
+   font-size:40px;
+  width:max-content;
+ }
 `;
 export const  Button = styled.button`
 margin-top:40px;
@@ -38,7 +48,7 @@ height:70px;
 border: none;
 border-radius:10px;
 font-size:18px;
-position: absolute;
+
 &:hover{
   background:#ffca17;
 

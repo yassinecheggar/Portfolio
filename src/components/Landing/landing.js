@@ -16,13 +16,14 @@ export default function landing() {
       <ContainerWrapper>
         
         <MyContainer />
-        <Title style={{top:40 , left:"40%"}}>Full-stack</Title>
-        <Title bold normal style={{top:215 , left:"35%"}}>
+        <div style={{display:"flex",  flexDirection:"column",alignItems:"center" }}>
+        <Title >Full-stack</Title>
+        <Title bold normal>
           Web & Mobile
         </Title>
-        <Title normal style={{top:300 , left:"40%"}}>developer</Title>
-        <Button style={{top:400 , left:"41.5%"}}>TELL ME MORE</Button>
-
+        <Title normal >developer</Title>
+        <Button>TELL ME MORE</Button>
+        </div>
       </ContainerWrapper>
 
       <Container>

@@ -38,7 +38,7 @@ function Aboutme() {
               <ContactTitleColor href="https://github.com/yassinecheggar" target="_blank">GitHub</ContactTitleColor>
             </GIt>
           </Contactinfo>
-          <TextWrapper>
+          <div style={{display:"flex" ,flexDirection:"column"}}>
             <Text>
               My passion is making ideas come to life, be it working solo, as
               part of a team or leading a team of fellow developers.
@@ -54,9 +54,11 @@ function Aboutme() {
               stats show. If you liked my profile so far, drop me a message and
               we'll discuss how I can be useful to your project.
             </Text>
-          </TextWrapper>
-
-          <text style={{fontSize:14, marginBottom:20}}>DESIGNED & CODED BY <Myname>YASSINE CHEGGAR</Myname> </text>
+           
+          </div>
+          <div style={{display:"flex"}}>
+          <p style={{fontSize:14, marginBottom:20}}>DESIGNED & CODED BY <Myname> YASSINE CHEGGAR </Myname> </p>
+          </div>
         </Wrapper>
       </Container>
     </>

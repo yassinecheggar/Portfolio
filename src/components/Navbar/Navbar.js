@@ -28,7 +28,7 @@ import {
       if(window.scrollY>=300 && window.scrollY<900) setSec1(true); else setSec1(false);
     }
     const  changebackground=()=>{
-      console.log(window.scrollY)
+   
       
       if(window.scrollY>=40){  setNav(true);}else { setNav(false)}
       if(window.scrollY>=300 && window.scrollY<1200) setSec1(true); else setSec1(false);

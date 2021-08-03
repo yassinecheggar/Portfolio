@@ -84,14 +84,19 @@ export const Text = styled.p`
     font-weight:500;
     width: 650px;
     line-height:30px;
+    text-overflow: ellipsis;
     &:hover{
         text-decoration: underline;
+    }
+    @media screen and (max-width: 791px) {
+        width: 90%;
     }
 
 `; 
 export const TextWrapper = styled.div`
     display:flex;
     flex-direction: column;
+    width: 100%;
     margin-bottom:50px;
     margin-top:10px;
 `; 
