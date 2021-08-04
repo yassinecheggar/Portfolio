@@ -89,7 +89,7 @@ export const Text = styled.p`
         text-decoration: underline;
     }
     @media screen and (max-width: 791px) {
-        width: 90%;
+       width:90%;
     }
 
 `; 

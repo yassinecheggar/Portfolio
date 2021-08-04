@@ -38,7 +38,7 @@ function Aboutme() {
               <ContactTitleColor href="https://github.com/yassinecheggar" target="_blank">GitHub</ContactTitleColor>
             </GIt>
           </Contactinfo>
-          <div style={{display:"flex" ,flexDirection:"column"}}>
+          <div style={{display:"flex" ,flexDirection:"column",alignItems:"center"}}>
             <Text>
               My passion is making ideas come to life, be it working solo, as
               part of a team or leading a team of fellow developers.

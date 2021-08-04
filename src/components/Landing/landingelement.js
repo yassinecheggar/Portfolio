@@ -98,9 +98,9 @@ export const SkillsInfo = styled.div`
     flex-direction:column;
     align-items:center;
     width:300px;
-
-    @media screen and (max-width: 991px) {
   
+    @media screen and (max-width: 991px) {
+    
   width:max-content;
  }
 `;
@@ -121,14 +121,12 @@ font-family: 'Rozha One', serif;
 
 export const SkilSubTitle = styled.p`
 font-size:16px;
+display: flex;
 color:gray;
 margin-top:9px;
 width:250px;
 font-family: 'PT Sans', sans-serif;
-@media screen and (max-width: 991px) {
-  width:400px;
-  
-  }
+
 `; 
 
 export const GlobalContainer= styled(Container)`
